@@ -61,7 +61,7 @@ function msgWithSum(clbk , msg){
 
 msgWithSum(sum , "Hii")*/
 
-function login(error , msg){
+/*function login(error , msg){
     if(error){
         console.log("Error : "+error)
     }
@@ -79,4 +79,14 @@ function loginHandler(username , password , clbk){
     }
 }
 
-loginHandler("rnk" , "1122334455" , login)
+loginHandler("rnk" , "1122334455" , login)*/
+
+
+console.log("1")
+console.log("2")
+console.log("3")
+
+console.log("1")
+setTimeout(()=>console.log("2"),1000)
+console.log("3")
+
