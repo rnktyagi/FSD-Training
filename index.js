@@ -82,11 +82,17 @@ function loginHandler(username , password , clbk){
 loginHandler("rnk" , "1122334455" , login)*/
 
 
-console.log("1")
+/*console.log("1")
 console.log("2")
 console.log("3")
 
 console.log("1")
 setTimeout(()=>console.log("2"),1000)
-console.log("3")
+console.log("3")*/
 
+console.log("One")
+for(i=0;i<10000;i++)
+{
+    console.log("i = "+ i)
+}
+console.log("Three")
